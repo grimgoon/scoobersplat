@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Knackelibang</title>
+        <title>Scoobersplat</title>
         <meta name="description" content="Making the coolest co-op games" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

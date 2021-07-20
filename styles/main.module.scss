@@ -2,7 +2,6 @@
 
 // Pages
 @import "./pages/home.scss";
-@import "./pages/signup.scss";
 
 /////////////
 // Global///
@@ -20,7 +19,7 @@
     padding: 0.8em 3em;
     margin-left: 0px;
     font-size: $fontSize-normal;
-    background-color: $color-secondary-1;
+    background-color: $color-secondary;
     box-shadow: inset 0px -5px 0px rgb(162 76 58 / 60%);
     border: none;
     color: $background-color-primary;
@@ -36,7 +35,17 @@
 
     &:hover {
       background-color: $color-secondary;
-      box-shadow: inset 0px -5px 0px rgb(162 76 58 / 60%);
+      box-shadow: none;
+    }
+  }
+
+  input[type=email] {
+    padding: 1.3em 2em;
+    border-radius: 6px;
+    border: none;
+
+    &:focus {
+      outline: none;
     }
   }
 }
@@ -79,7 +88,6 @@
 ////////////
 
 .footer {
-  padding: 60px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,6 +96,12 @@
   .logo {
     max-width: 280px;
     height: auto;
+  }
+
+  .divider {
+    object-fit: cover;
+    width: 100%;
+    padding-bottom: 64px;
   }
 
   .contact {
