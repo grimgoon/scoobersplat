@@ -40,7 +40,7 @@ export default function home() {
               <img src="/images/about/goobers.gif" />
               <div className={styles.text}>
                 <h3>Goobers</h3>
-                <p>Do whatever it takes to kill the Scoobers and make they sure they can't escape.</p>
+                <p>Do whatever it takes to kill the Scoobers and make sure they can't escape.</p>
                 <p>Use your heightened senses and speed to your advantage and track any survivors down.</p>
               </div>
 
