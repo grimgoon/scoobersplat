@@ -46,8 +46,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Scoobersplat</title>
-        <meta name="description" content="Making the coolest co-op games" />
+        <title>Scoober Splat</title>
+        <meta name="description" content="Hunt your friends from the comfort of your favourite browser" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
