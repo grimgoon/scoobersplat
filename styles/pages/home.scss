@@ -38,6 +38,11 @@
 
       .hero {
         max-width: 60%;
+        display: none;
+
+        @media only screen and (min-width: $breakpoint-md) {
+          display: block;
+        }
 
         img {
           width: 100%;
@@ -55,22 +60,61 @@
 
     .card {
       display: flex;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
       border-radius: 6px;
       padding: 20px;
-      margin-bottom: 128px;
+      margin-bottom: 64px;
       width: 100%;
 
+      @media only screen and (min-width: $breakpoint-md) {
+        flex-direction: row;
+        margin-bottom: 128px;
+      }
+
       img {
+        order: 2;
         height: auto;
-        width: 460px;
+        width: 100%;
         border-radius: 8px;
+
+        @media only screen and (min-width: $breakpoint-md) {
+          order: 0;
+          max-width: 320px;
+        }
+
+        @media only screen and (min-width: $breakpoint-lg) {
+          order: 0;
+          max-width: 380px;
+        }
+
+        @media only screen and (min-width: $breakpoint-xl) {
+          order: 0;
+          max-width: 460px;
+        }
 
       }
 
       .text {
-        max-width: 38%;
+        width: 100%;
+        order: 1;
+        padding: 16px;
+
+        button {
+          margin-top: 32px;
+          margin-left: 0px;
+          display: none;
+
+          @media only screen and (min-width: $breakpoint-md) {
+            display: block;
+          }
+        }
+
+        @media only screen and (min-width: $breakpoint-md) {
+          width: 38%;
+          order: 0;
+        }
 
       }
     }

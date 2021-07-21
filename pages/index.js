@@ -30,8 +30,7 @@ export default function home() {
             <div className={styles.card}>
               <div className={styles.text}>
                 <h3>Scoobers</h3>
-                <p>Work together to fix your submarine.</p>
-                <p>Stay clear from the Goobers</p>
+                <p>Work together with your teammates to repair your submarine by using your wit and vision advantage to escape from the Goobers.</p>
               </div>
               <img src="/images/about/scoobers.gif" />
             </div>
@@ -41,8 +40,8 @@ export default function home() {
               <img src="/images/about/goobers.gif" />
               <div className={styles.text}>
                 <h3>Goobers</h3>
-                <p>When your submarine is invaded by rabid Goobers</p>
-                <p>When your submarine is invaded by rabid Goobers</p>
+                <p>Do whatever it takes to kill the Scoobers to make they sure they can't escape.</p>
+                <p> Use your heightened senses and speed to your advantage and track any survivors down.</p>
               </div>
 
             </div>
@@ -50,8 +49,10 @@ export default function home() {
             <div className={styles.card}>
               <div className={styles.text}>
                 <h3>Powerups</h3>
-                <p>When your submarine is invaded by rabid Goobers</p>
-                <p>When your submarine is invaded by rabid Goobers</p>
+                <p>Each round you get new powerups to better equip you to survive and fight off the Goobers.
+
+                </p>
+                <p>However, you're not the only one that gets stronger.</p>
               </div>
               <img src="/images/about/powerups.gif" />
             </div>
@@ -61,8 +62,9 @@ export default function home() {
               <div className={styles.text}>
 
                 <h3>A single click away</h3>
-                <p>When your submarine is invaded by rabid Goobers</p>
-                <p>When your submarine is invaded by rabid Goobers</p>
+                <p>Share your game anywhere and with anyone.</p>
+                <p>Scoober Splat runs directly in the browser making it just one click away to invite your friends.</p>
+                <a href=""><button>Play now</button></a>
               </div>
             </div>
 
