@@ -17,8 +17,9 @@ export default function home() {
               />
               <h3>You and your friends are Scoobers, deep-sea scavengers.</h3>
               <h3>When your submarine is invaded by rabid Goobers, you must quickly fix your submarine to rescue yourselves from certain massacre!</h3>
-              <a className={styles.button} href="">Wishlist on Steam
-                <img src="/images/steamLogo.svg" /></a>
+              {/* <a className={styles.button} href="">Wishlist on Steam
+                <img src="/images/steamLogo.svg" />
+              </a> */}
             </div>
             <div className={styles.hero}>
               <img src="/images/hero.png" />
@@ -65,7 +66,7 @@ export default function home() {
                 <h3>A single click away</h3>
                 <p>Share your game anywhere and with anyone.</p>
                 <p>Scoober Splat runs directly in the browser making it just one click away to invite your friends.</p>
-                <a href=""><button>Play the free Beta now!</button></a>
+                {/* <a href=""><button>Play the free Beta now!</button></a> */}
               </div>
             </div>
 
