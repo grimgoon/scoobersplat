@@ -2,7 +2,7 @@ import styles from "../styles/main.module.scss";
 import Footer from "../components/footer";
 import AboutCard from "../components/aboutCard";
 import Link from "next/link";
-import MailchimpForm from "react-mailchimp-subscribe";
+import MailchimpForm from "../components/utils/mailchimpForm";
 
 export default function home() {
   return (
@@ -83,7 +83,7 @@ export default function home() {
               </a>
             </div>
             <h1>sign up for newsletter</h1>
-            <MailchimpForm />
+            <MailchimpForm url={"https://gmail.us7.list-manage.com/subscribe/post?u=92895a7eb7d1683ec2ad836c0&id=3d8cdfc1f7"} />
             <img src="/images/scooberRun.gif" className={styles.scooberRun} />
           </div>
         </section>

@@ -5,7 +5,7 @@ export default function mailchimpForm() {
   return (
     <MailchimpSubscribe
       url={
-        "https://Knackelibang.us2.list-manage.com/subscribe/post?u=9a427ce69a1cdbec989deee8f&amp;id=8469e5e30e"
+        "https://gmail.us7.list-manage.com/subscribe/post?u=92895a7eb7d1683ec2ad836c0&id=3d8cdfc1f7"
       }
       render={({ subscribe, status, message }) => (
         <CustomForm

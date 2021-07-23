@@ -73,13 +73,11 @@
   }
 
   input {
-    background-color: $background-color-primary;
     border: 2px solid #4a4a4a;
     border-radius: 6px;
     padding: 1.2em 1em;
     font-family: $font-main;
     width: 240px;
-    color: $font-color-primary;
 
     &:focus {
       outline: none;
